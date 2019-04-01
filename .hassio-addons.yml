@@ -1,0 +1,6 @@
+channel: stable
+addons:
+  openvpnclient:
+    repository: larsklitzke/homeassistant-openvpn-client
+    target: openvpnclient
+    image: larsklitzke/homeassistant-openvpn-client-{arch}
